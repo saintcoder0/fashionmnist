@@ -1,0 +1,36 @@
+{
+  "architecture": [
+    784,
+    128,
+    64,
+    10
+  ],
+  "epochs": 12,
+  "batch_size": 128,
+  "initial_lr": 0.12,
+  "test_loss": 0.37724626388549803,
+  "test_accuracy": 0.8736,
+  "val_accuracy_last": 0.88,
+  "train_accuracy_last": 0.8974363636363636,
+  "seconds": 8.513259578000088,
+  "per_class_accuracy": {
+    "T-shirt/top": 0.857,
+    "Trouser": 0.959,
+    "Pullover": 0.694,
+    "Dress": 0.882,
+    "Coat": 0.848,
+    "Sandal": 0.942,
+    "Shirt": 0.671,
+    "Sneaker": 0.965,
+    "Bag": 0.971,
+    "Ankle boot": 0.947
+  },
+  "plots": [
+    "plots/dataset_samples.png",
+    "plots/class_counts.png",
+    "plots/training_curves.png",
+    "plots/confusion_matrix.png",
+    "plots/test_predictions.png"
+  ],
+  "weights": "models/mlp_fashion_mnist.npz"
+}
